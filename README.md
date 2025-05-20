@@ -1,22 +1,24 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# NASC Template
+
+A NextJs Atomic styled-components template. Provides a base package with an atomic structure utilizing styled-components.
+styled-components is setup to work with a full SSR app.
+
+### Reverting to Next.js' hybrid SSR/SPA functionality <!-- markdownlint-disable-line MD001 -->
+
+Remove the _document.tsx file in src/app/ and uncomment `'use client'` in
+src/ui/atoms/HelloWorld.tsx.
 
 ## Getting Started
 
-First, run the development server:
+This is configured to use Yarn, but if you're using npm instead, simply delete the .pnp.* files, .yarn folder, and the yarn.lock file.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. Run `$yarn install`.
+2. Now you can run `$yarn dev`.
+3. Open [http://localhost:3000](http://localhost:3000) with your browser.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+
+### TGest
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
