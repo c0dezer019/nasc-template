@@ -1,4 +1,4 @@
-//'use client'
+'use client'
 
 import React, { FC, ReactElement } from 'react';
 
